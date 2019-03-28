@@ -1,0 +1,419 @@
+Fall,MajorName,College,Total,Male,Female
+2018,Agricultural Production,ACES,6,1.0,5.0
+1980,GEN AGRIC,ACES,1,1.0,0.0
+1980,GEN AGR,ACES,74,57.0,17.0
+1980,Teaching of Chemistry,ACES,7,3.0,4.0
+1980,Forestry,ACES,124,95.0,29.0
+1980,Food Science & Human Nutrition,ACES,209,82.0,127.0
+1980,Teaching of English Sec Lang,ACES,75,15.0,60.0
+1980,FAM&CON EC,ACES,20,0.0,20.0
+1980,Teaching of French,ACES,15,1.0,14.0
+1980,Teaching of German,ACES,9,2.0,7.0
+1980,Teaching of Biological Science,ACES,1,1.0,0.0
+1980,Teaching of Latin,ACES,2,0.0,2.0
+1980,VOC H E ED,ACES,36,0.0,36.0
+1980,Wood Sciences,ACES,5,5.0,0.0
+1980,EXT EDUC,ACES,13,5.0,8.0
+1980,MKT TEXT&A,ACES,103,2.0,101.0
+2018,Agric Leadership & Sci Educ,ACES,55,17.0,38.0
+2018,Agricultural & Applied Econ,ACES,86,48.0,38.0
+2018,Agricultural & Biological Engr,ACES,84,47.0,37.0
+2018,Agricultural Communications,ACES,38,11.0,27.0
+2018,Agricultural Education,ACES,32,10.0,22.0
+1980,Teaching of Mathematics,ACES,28,10.0,18.0
+1980,GEN H ECON,ACES,5,0.0,5.0
+1980,TEXT-APPRL,ACES,9,0.0,9.0
+1980,Statistics,ACES,11,6.0,5.0
+1980,Mechanical Agriculture,ACES,49,49.0,0.0
+1980,Nutritional Sciences,ACES,30,11.0,19.0
+1980,ORN HORT,ACES,122,53.0,69.0
+1980,PLANT PATH,ACES,34,28.0,6.0
+1980,Physics,ACES,362,336.0,26.0
+1980,REST MGMT,ACES,53,30.0,23.0
+1980,Industrial Agriculture,ACES,70,57.0,13.0
+1980,INT DSGN,ACES,140,9.0,131.0
+1980,INST MGMT,ACES,8,1.0,7.0
+1980,Horticulture,ACES,48,28.0,20.0
+1980,HU DEV&FAM,ACES,14,1.0,13.0
+1980,HR&FS GEN,ACES,1,0.0,1.0
+1980,HR&FS A&ID,ACES,6,0.0,6.0
+1980,Secondary Education,ACES,16,8.0,8.0
+1980,HR&FS,ACES,1,0.0,1.0
+1980,HOME MGMT,ACES,2,0.0,2.0
+1980,HOME ECON,ACES,171,0.0,171.0
+1980,HOME EC ED,ACES,1,0.0,1.0
+1980,H DVL-FAM,ACES,36,0.0,36.0
+1980,Spanish,ACES,46,18.0,28.0
+1980,Speech & Hearing Science,ACES,158,13.0,145.0
+2018,Animal Sciences,ACES,626,128.0,496.0
+2018,Bioinformatics,ACES,4,3.0,1.0
+2018,Agr & Consumer Economics,ACES,647,452.0,195.0
+1980,DIETETICS,ACES,32,0.0,32.0
+2018,Human Dvlpmt & Family Studies,ACES,24,1.0,23.0
+2018,Natural Res & Env Sciences,ACES,118,58.0,60.0
+2018,Bioprocessing and Bioenergy,ACES,10,6.0,4.0
+2018,Nondegree,ACES,81,40.0,41.0
+2018,Nutritional Sciences,ACES,41,10.0,31.0
+1980,Application Design,ACES,11,0.0,11.0
+1980,CORE CURR,ACES,158,124.0,34.0
+1980,Animal Sciences,ACES,487,245.0,242.0
+1980,Agricultural Sciences,ACES,81,57.0,24.0
+1980,Agricultural Engineering,ACES,83,75.0,8.0
+1980,Agricultural Education,ACES,26,21.0,5.0
+1980,Agricultural Communications,ACES,79,31.0,48.0
+1980,Agricultural & Applied Econ,ACES,315,277.0,38.0
+1980,Agr & Environmental Cmc & Educ,ACES,5,4.0,1.0
+1980,Agronomy,ACES,173,133.0,40.0
+2018,Human Development & Family St,ACES,253,22.0,230.0
+2018,Natural Resrcs & Environ Sci,ACES,241,98.0,143.0
+2018,Horticulture,ACES,3,1.0,2.0
+1980,DAIRY SCI,ACES,51,39.0,12.0
+2018,Computer Science&Crop Sciences,ACES,4,4.0,0.0
+2018,Human & Community Development,ACES,1,0.0,1.0
+2018,Crop Sciences,ACES,238,136.0,102.0
+2018,Food Science & Human Nutrition,ACES,480,130.0,350.0
+2018,Interdisciplinary Health Sci,Applied Health Sciences,328,60.0,268.0
+1980,MOTOR P&SP,Applied Health Sciences,28,14.0,14.0
+2018,Audiology,Applied Health Sciences,26,2.0,23.0
+1980,Leisure Studies,Applied Health Sciences,52,28.0,24.0
+1980,OUTDR REC,Applied Health Sciences,41,17.0,24.0
+1980,PROG MANAG,Applied Health Sciences,97,32.0,65.0
+1980,PROG SPEC,Applied Health Sciences,8,2.0,6.0
+1980,Kinesiology,Applied Health Sciences,268,125.0,143.0
+1980,SCH HEALTH,Applied Health Sciences,18,2.0,16.0
+2018,Speech & Hearing Science,Applied Health Sciences,298,14.0,284.0
+2018,Community Health,Applied Health Sciences,656,160.0,496.0
+1980,SOC SCI SP,Applied Health Sciences,13,8.0,5.0
+2018,"Recreation, Sport, and Tourism ",Applied Health Sciences,359,243.0,116.0
+2018,Public Health,Applied Health Sciences,20,4.0,16.0
+1980,MOTOR DEV,Applied Health Sciences,33,3.0,30.0
+2018,Kinesiology,Applied Health Sciences,634,286.0,348.0
+1980,Biology,Applied Health Sciences,19,10.0,9.0
+1980,HLTH EDUC,Applied Health Sciences,65,12.0,53.0
+1980,THER REC,Applied Health Sciences,86,6.0,80.0
+1980,HEALTH&SAF,Applied Health Sciences,8,4.0,4.0
+2018,Nondegree,Applied Health Sciences,38,16.0,22.0
+1980,TCH KINES,Applied Health Sciences,8,3.0,5.0
+1980,Community Health,Applied Life Sciences,46,18.0,28.0
+1980,Professional Pilot,Aviation,14,10.0,4.0
+1980,Avionics,Aviation,8,8.0,0.0
+1980,Air Systems,Aviation,172,152.0,20.0
+1980,UNASSIGNED,Business,611,341.0,270.0
+2018,Business Administration (MBA),Business,2017,1359.0,652.0
+2018,Curric Unassigned,Business,1021,575.0,445.0
+2018,Business Administration,Business,95,41.0,52.0
+1980,Theatre,Business,122,56.0,66.0
+2018,Finance,Business,887,572.0,315.0
+1980,Teaching of Spanish,Business,30,2.0,28.0
+2018,Marketing,Business,240,74.0,166.0
+2018,Information Systems,Business,25,14.0,10.0
+2018,Management,Business,107,52.0,55.0
+2018,Information Sys & Info Tech,Business,103,57.0,46.0
+2018,Supply Chain Management,Business,85,32.0,53.0
+2018,Technology Management,Business,78,43.0,35.0
+2018,Nondegree,Business,97,50.0,47.0
+2018,Business Process Management,Business,17,12.0,5.0
+2018,Operations Management,Business,11,6.0,5.0
+1980,Accountancy,Business,1529,928.0,601.0
+1980,Finance,Business,536,352.0,184.0
+1980,Computer Science,Business,217,177.0,40.0
+1980,MARKETING,Business,54,24.0,30.0
+1980,Economics,Business,160,117.0,43.0
+1980,Business Administration,Business,1414,831.0,583.0
+2018,Pre-Engineering,DGS,488,394.0,94.0
+2018,Undeclared,DGS,2474,1352.0,1121.0
+2018,Middle Grades Education,Education,82,20.0,62.0
+1980,BUS EDUC,Education,33,13.0,20.0
+1980,TCH ENGL,Education,12,3.0,9.0
+1980,TCH GEN SCIENCE,Education,2,0.0,2.0
+1980,EDUC IDISC,Education,5,2.0,3.0
+1980,TCH LIFE SCI,Education,9,5.0,4.0
+1980,TCH PHYS SCI,Education,2,1.0,1.0
+1980,TCH SOC ST,Education,32,15.0,17.0
+2018,Applied Mathematics,Education,13,8.0,5.0
+2018,Anthropology,Education,152,50.0,102.0
+1980,TECH ED SP,Education,50,33.0,17.0
+2018,Educational Psychology,Education,51,14.0,37.0
+1980,EDUC ELEMENTARY,Education,129,26.0,103.0
+2018,Learning and Education Studies,Education,48,14.0,34.0
+1980,Elementary Education,Education,428,33.0,395.0
+1980,Educational Psychology,Education,156,65.0,91.0
+1980,Educ Voc Tech,Education,120,59.0,61.0
+2018,Human Resource Education,Education,19,9.0,10.0
+1980,Ed Organization and Leadership,Education,135,65.0,70.0
+1980,EDUC GEN,Education,116,32.0,84.0
+1980,Early Childhood Education,Education,78,0.0,78.0
+2018,ACES Undeclared,Education,55,26.0,29.0
+2018,Accountancy,Education,1430,656.0,774.0
+2018,Actuarial Science,Education,398,231.0,167.0
+2018,Advertising,Education,645,207.0,438.0
+2018,African American Studies,Education,20,6.0,14.0
+1980,Special Education,Education,105,18.0,87.0
+2018,Educational Policy Studies,Education,41,18.0,23.0
+2018,Elementary Education,Education,302,23.0,279.0
+2018,"Educ Policy, Orgzn & Leadrshp ",Education,705,222.0,481.0
+2018,Education Curriculum Uassign,Education,22,4.0,18.0
+2018,Special Education,Education,160,19.0,140.0
+2018,Secondary Education,Education,20,13.0,7.0
+2018,Curriculum and Instruction,Education,79,17.0,62.0
+1980,ED SEC&CON,Education,115,48.0,67.0
+1980,ED POL ST,Education,56,31.0,25.0
+2018,Ed Organization and Leadership,Education,22,10.0,12.0
+2018,Early Childhood Education,Education,56,2.0,54.0
+2018,Nondegree,Education,5,1.0,4.0
+1980,ENV ENGR,Engineering,33,27.0,6.0
+2018,Financial Engineering,Engineering,127,89.0,38.0
+2018,Agricultural & Biological Engr,Engineering,141,88.0,53.0
+1980,ENGR MECH,Engineering,34,28.0,6.0
+2018,Environ Engr in Civil Engr,Engineering,99,55.0,44.0
+2018,Systems & Entrepreneurial Engr,Engineering,22,22.0,0.0
+2018,Engineering Undeclared,Engineering,151,94.0,57.0
+2018,Engineering Physics,Engineering,275,228.0,47.0
+2018,Systems Engineering and Design,Engineering,249,180.0,68.0
+2018,Computer Engineering,Engineering,1184,1032.0,152.0
+2018,Theoretical & Applied Mechans,Engineering,36,29.0,7.0
+1980,Mechanical Engineering,Engineering,1012,934.0,78.0
+1980,Civil Engineering,Engineering,902,792.0,110.0
+1980,Computer Engineering,Engineering,286,252.0,34.0
+1980,ENGR PHYS,Engineering,105,97.0,8.0
+2018,Aerospace Engineering,Engineering,686,581.0,105.0
+2018,Civil Engineering,Engineering,1225,901.0,324.0
+2018,Engineering,Engineering,34,25.0,9.0
+1980,ENV SCI,Engineering,5,5.0,0.0
+2018,Engineering Mechanics,Engineering,112,96.0,16.0
+1980,Aero & Astro Engineering,Engineering,379,351.0,28.0
+1980,Agricultural Engineering,Engineering,106,93.0,13.0
+1980,CERAMICS,Engineering,4,4.0,0.0
+1980,METAL ENGR,Engineering,190,159.0,31.0
+2018,Mechanical Engineering,Engineering,1285,1037.0,248.0
+2018,Materials Science & Engr,Engineering,504,357.0,147.0
+2018,Electrical & Computer Engr,Engineering,657,545.0,112.0
+1980,Industrial Engineering,Engineering,188,130.0,58.0
+2018,Nondegree,Engineering,181,132.0,49.0
+2018,"Nuclear, Plasma, Radiolgc Engr ",Engineering,218,190.0,28.0
+2018,Bioengineering,Engineering,383,194.0,189.0
+2018,Electrical Engineering,Engineering,913,786.0,127.0
+2018,Bioinformatics,Engineering,6,4.0,2.0
+2018,Physics,Engineering,290,211.0,79.0
+1980,CER ENGR,Engineering,156,125.0,31.0
+2018,Industrial Engineering,Engineering,367,262.0,105.0
+2018,Computer Science,Engineering,2318,1757.0,559.0
+1980,Electrical Engineering,Engineering,1645,1497.0,148.0
+1980,Theoretical & Applied Mechans,Engineering,50,46.0,4.0
+1980,Nuclear Engineering,Engineering,187,178.0,9.0
+1980,GEN ENGR,Engineering,618,485.0,133.0
+1980,Computer Science,Engineering,480,367.0,113.0
+2018,Crafts,Fine and Applied Arts,4,0.0,4.0
+2018,Dance,Fine and Applied Arts,68,9.0,59.0
+2018,Computer Science and Music,Fine and Applied Arts,1,1.0,0.0
+1980,MUS-VOICE,Fine and Applied Arts,44,15.0,29.0
+2018,History of Art,Fine and Applied Arts,8,3.0,5.0
+2018,Urban Studies & Planning,Fine and Applied Arts,80,49.0,31.0
+2018,Urban Planning,Fine and Applied Arts,53,26.0,27.0
+2018,Theatre,Fine and Applied Arts,201,85.0,115.0
+2018,Sculpture,Fine and Applied Arts,3,2.0,1.0
+2018,Regional Planning,Fine and Applied Arts,16,10.0,6.0
+1980,Architectural Studies,Fine and Applied Arts,627,474.0,153.0
+2018,Photography,Fine and Applied Arts,32,8.0,24.0
+2018,Painting,Fine and Applied Arts,36,4.0,32.0
+1980,Architecture,Fine and Applied Arts,186,154.0,32.0
+2018,Open Studies,Fine and Applied Arts,5,2.0,3.0
+1980,Art Education,Fine and Applied Arts,72,13.0,59.0
+2018,Nondegree,Fine and Applied Arts,38,17.0,21.0
+1980,Art History,Fine and Applied Arts,59,14.0,45.0
+1980,Art and Design,Fine and Applied Arts,363,115.0,248.0
+2018,New Media,Fine and Applied Arts,29,7.0,22.0
+2018,Musicology,Fine and Applied Arts,19,11.0,8.0
+2018,Music Education,Fine and Applied Arts,152,72.0,80.0
+2018,Music Composition,Fine and Applied Arts,10,10.0,0.0
+2018,Music,Fine and Applied Arts,338,178.0,160.0
+2018,Lyric Theatre,Fine and Applied Arts,12,2.0,10.0
+2018,Landscape Architecture,Fine and Applied Arts,108,32.0,76.0
+2018,Jazz Performance,Fine and Applied Arts,31,25.0,6.0
+2018,Instrumental Music,Fine and Applied Arts,77,30.0,47.0
+2018,Graphic Design,Fine and Applied Arts,185,58.0,127.0
+2018,Industrial Design,Fine and Applied Arts,201,99.0,102.0
+2018,Voice,Fine and Applied Arts,25,8.0,17.0
+1980,Music,Fine and Applied Arts,251,144.0,107.0
+1980,Graphic Design,Fine and Applied Arts,164,40.0,124.0
+1980,Landscape Architecture,Fine and Applied Arts,158,97.0,61.0
+2018,Art History,Fine and Applied Arts,14,2.0,12.0
+2018,Art Foundation,Fine and Applied Arts,15,3.0,12.0
+1980,PERFORM ST,Fine and Applied Arts,24,18.0,6.0
+2018,Art Education,Fine and Applied Arts,54,3.0,51.0
+2018,Architecture,Fine and Applied Arts,199,99.0,99.0
+1980,UNCLASS,Fine and Applied Arts,65,22.0,43.0
+2018,Architectural Studies,Fine and Applied Arts,418,251.0,167.0
+1980,Theatre,Fine and Applied Arts,29,17.0,12.0
+1980,Music History,Fine and Applied Arts,4,1.0,3.0
+1980,Music Education,Fine and Applied Arts,309,130.0,179.0
+2018,Art and Design,Fine and Applied Arts,47,18.0,29.0
+1980,Urban Planning,Fine and Applied Arts,92,49.0,43.0
+1980,Industrial Design,Fine and Applied Arts,97,56.0,41.0
+1980,MUSIC-COMP,Fine and Applied Arts,19,16.0,3.0
+1980,MUSIC-INST,Fine and Applied Arts,105,54.0,51.0
+1980,TCH DANCE,Fine and Applied Arts,8,0.0,8.0
+1980,Dance,Fine and Applied Arts,41,5.0,36.0
+1980,Crafts,Fine and Applied Arts,20,5.0,15.0
+2018,Informatics,Graduate,45,26.0,19.0
+2018,Nondegree,Graduate,15,11.0,4.0
+1980,Italian,LAS,2,2.0,0.0
+1980,Psychology,LAS,160,86.0,74.0
+1980,Slavic Languages & Literature,LAS,13,6.0,7.0
+1980,History,LAS,82,46.0,36.0
+1980,HR&FS,LAS,61,0.0,61.0
+1980,Astronomy,LAS,16,13.0,3.0
+1980,Asian Studies,LAS,17,10.0,7.0
+2018,Neuroscience,LAS,54,22.0,32.0
+2018,Cell and Developmental Biology,LAS,31,13.0,18.0
+2018,Molecular and Cellular Biology,LAS,953,418.0,535.0
+1980,Sociology,LAS,46,28.0,18.0
+2018,Latin American Studies,LAS,5,4.0,1.0
+1980,Geography,LAS,43,30.0,13.0
+2018,Linguistics,LAS,125,50.0,75.0
+1980,TCH ENGL,LAS,55,8.0,47.0
+1980,Biochemistry,LAS,86,66.0,20.0
+1980,TCH BIOL,LAS,17,6.0,11.0
+1980,Atmospheric Sciences,LAS,22,17.0,5.0
+2018,Math & Computer Science,LAS,273,225.0,48.0
+1980,Geology,LAS,115,79.0,36.0
+2018,Microbiology,LAS,49,20.0,29.0
+1980,Speech Communication,LAS,49,27.0,22.0
+2018,Molecular & Integrative Physi,LAS,23,8.0,15.0
+2018,Molecular&Cell Bio-undeclared,LAS,27,12.0,15.0
+1980,German,LAS,26,13.0,13.0
+2018,Mathematics,LAS,772,506.0,265.0
+2018,Nondegree,LAS,149,76.0,73.0
+2018,Physics,LAS,275,219.0,56.0
+1980,Plant Biology,LAS,31,18.0,13.0
+1980,Linguistics,LAS,63,32.0,31.0
+2018,Statistics,LAS,561,325.0,236.0
+2018,Statistics & Computer Science,LAS,259,195.0,64.0
+2018,Teaching of Biological Science,LAS,24,9.0,15.0
+2018,Teaching of Chemistry,LAS,1,0.0,1.0
+2018,Teaching of English Sec Lang,LAS,28,5.0,23.0
+2018,Spanish,LAS,121,40.0,81.0
+2018,Teaching of French,LAS,1,0.0,1.0
+2018,Teaching of Mathematics,LAS,3,2.0,1.0
+2018,Teaching of Spanish,LAS,7,0.0,7.0
+1980,Molecular & Integrative Physi,LAS,57,43.0,14.0
+1980,Microbiology,LAS,59,34.0,25.0
+2018,Translation and Interpreting,LAS,30,10.0,20.0
+1980,Mathematics,LAS,139,119.0,20.0
+2018,Teaching of Latin,LAS,2,0.0,2.0
+2018,Sociology,LAS,213,77.0,136.0
+2018,Slavic Studies,LAS,5,3.0,2.0
+2018,Slavic Languages & Literature,LAS,14,3.0,11.0
+1980,Philosophy,LAS,33,28.0,5.0
+1980,PUB ADMIN,LAS,19,12.0,7.0
+2018,Philosophy,LAS,111,82.0,29.0
+1980,LAS TCH MATH,LAS,1,0.0,1.0
+1980,TCH SOC ST,LAS,10,5.0,5.0
+2018,Plant Biology,LAS,33,12.0,21.0
+2018,Political Science,LAS,768,422.0,345.0
+2018,Portuguese,LAS,1,0.0,1.0
+1980,PRE-MED,LAS,28,18.0,10.0
+2018,Psychological Science,LAS,21,8.0,13.0
+2018,Psychology,LAS,1667,437.0,1230.0
+1980,PRE-JOURN,LAS,57,24.0,33.0
+1980,Anthropology,LAS,78,42.0,36.0
+2018,Religion,LAS,12,4.0,8.0
+2018,"Russian, E Eur, Eurasian St ",LAS,10,3.0,7.0
+1980,Political Science,LAS,46,29.0,17.0
+2018,LAS - Undeclared,LAS,135,46.0,89.0
+2018,Latina/Latino Studies,LAS,16,1.0,15.0
+2018,Econometrics & Quant Econ,LAS,33,26.0,7.0
+2018,General Curriculum,LAS,121,76.0,45.0
+2018,Gender and Women's Studies,LAS,20,0.0,20.0
+2018,French,LAS,36,16.0,20.0
+2018,Biophysics & Quant Biology,LAS,46,33.0,13.0
+2018,Computer Sci & Anthropology,LAS,36,26.0,10.0
+2018,Computer Sci & Astronomy,LAS,39,32.0,7.0
+2018,Computer Sci & Chemistry,LAS,41,32.0,9.0
+1980,Classical Philology,LAS,9,7.0,2.0
+2018,European Union Studies,LAS,6,3.0,3.0
+2018,Computer Sci & Linguistics,LAS,76,51.0,25.0
+2018,Biophysics & Computnl Biology,LAS,12,9.0,3.0
+2018,Entomology,LAS,29,21.0,8.0
+2018,English,LAS,442,119.0,323.0
+2018,Geography,LAS,53,32.0,21.0
+1980,Biology,LAS,139,83.0,56.0
+2018,Biology,LAS,720,280.0,440.0
+1980,Zoology,LAS,3,1.0,2.0
+2018,African Studies,LAS,4,1.0,3.0
+1980,Comparative Literature,LAS,42,22.0,20.0
+2018,Creative Writing,LAS,98,38.0,60.0
+2018,Economics,LAS,1202,834.0,368.0
+2018,Asian American Studies,LAS,3,2.0,1.0
+2018,"Ecol, Evol, Conservation Biol ",LAS,34,11.0,23.0
+2018,East Asian Studies,LAS,11,6.0,5.0
+2018,"Earth, Soc, Env Sustainability ",LAS,139,63.0,76.0
+2018,Astronomy,LAS,119,78.0,41.0
+2018,E Asian Languages & Cultures,LAS,59,20.0,39.0
+2018,Atmospheric Sciences,LAS,117,77.0,40.0
+2018,Computer Science & Economics,LAS,3,3.0,0.0
+1980,Classics,LAS,9,8.0,1.0
+2018,Geography & Geographic Info Sc,LAS,38,30.0,8.0
+2018,German,LAS,9,6.0,3.0
+1980,TCH SPEECH,LAS,9,5.0,4.0
+2018,Italian,LAS,7,3.0,4.0
+1980,Biophysics & Computnl Biology,LAS,21,18.0,3.0
+2018,Chemical Engineering,LAS,756,502.0,252.0
+2018,Interdisciplinary,LAS,2,1.0,1.0
+2018,Chemical Physics,LAS,3,2.0,1.0
+2018,Integrative Biology,LAS,347,147.0,200.0
+1980,Genetics,LAS,6,3.0,3.0
+1980,GEN CURR,LAS,2408,1015.0,1393.0
+1980,French,LAS,40,7.0,33.0
+2018,Chemistry,LAS,798,452.0,346.0
+1980,Entomology,LAS,30,23.0,7.0
+1980,English,LAS,108,50.0,58.0
+2018,Individual Plans of Study,LAS,13,5.0,8.0
+2018,Classical Philology,LAS,10,7.0,3.0
+2018,Classics,LAS,17,7.0,10.0
+2018,Communication,LAS,732,280.0,452.0
+1980,Chemical Engineering,LAS,530,419.0,111.0
+1980,Chemical Physics,LAS,6,5.0,1.0
+1980,Chemistry,LAS,531,408.0,123.0
+2018,History of Art,LAS,17,2.0,15.0
+1980,UNCLASS,LAS,214,82.0,132.0
+2018,History,LAS,340,216.0,124.0
+2018,Health Communication,LAS,27,2.0,25.0
+2018,Comparative Literature,LAS,29,7.0,22.0
+2018,Global Studies,LAS,183,52.0,131.0
+2018,Germanic Studies,LAS,3,2.0,1.0
+2018,Germanic Lang & Lit,LAS,4,0.0,4.0
+2018,Geology,LAS,97,55.0,42.0
+2018,Biochemistry,LAS,242,124.0,118.0
+2018,Nondegree-CE,LN,399,170.0,222.0
+1980,LAB&IN REL,Labor and Industrial Relations,79,47.0,32.0
+2018,Human Res & Industrial Rels,Labor and Industrial Relations,251,74.0,177.0
+2018,Law,Law,487,269.0,218.0
+1980,Law,Law,639,468.0,171.0
+2018,Journalism,Media,228,90.0,138.0
+1980,Communication,Media,27,12.0,15.0
+2018,Broadcast Journalism,Media,1,0.0,1.0
+2018,Media and Cinema Studies,Media,116,50.0,66.0
+2018,Agricultural Communications,Media,2,1.0,1.0
+2018,Strategic Brand Communication,Media,68,17.0,51.0
+1980,Advertising,Media,240,77.0,163.0
+1980,Journalism,Media,203,75.0,128.0
+2018,Nondegree,Media,26,13.0,13.0
+2018,Communications and Media,Media,47,14.0,33.0
+2018,Medicine - Carle Illinois COM,Medicine,32,15.0,15.0
+2018,Nondegree,NB,3,0.0,2.0
+2018,Social Work,Social Work,607,86.0,521.0
+1980,Social Work,Social Work,315,69.0,246.0
+1980,VMS - Veterinary Pathobiology,VetMed,21,12.0,9.0
+1980,VMS-Veterinary Clinical Medcne,VetMed,11,8.0,3.0
+1980,Veterinary Medical Science,VetMed,28,20.0,8.0
+1980,Veterinary Medicine,VetMed,355,210.0,145.0
+2018,Veterinary Medicine,VetMed,545,75.0,470.0
+2018,VMS - Comparative Biosciences,VetMed,19,2.0,17.0
+2018,VMS - Pathobiology,VetMed,29,12.0,17.0
+2018,VMS-Veterinary Clinical Medcne,VetMed,34,9.0,25.0
+1980,VMS - Veterinary Biosciences,VetMed,22,11.0,11.0
+2018,Bioinformatics,iSchool,4,3.0,1.0
+1980,Library & Information Science,iSchool,142,34.0,108.0
+2018,Information Management,iSchool,276,131.0,145.0
+2018,Library & Information Science,iSchool,529,116.0,408.0
