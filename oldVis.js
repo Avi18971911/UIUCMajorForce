@@ -1,7 +1,7 @@
 
 // Using jQuery, read our data and call visualize(...) only once the page is ready:
 $(function() {
-  d3.csv("majortotals.csv").then(function(data) {
+  d3.csv("majortotals2.csv").then(function(data) {
     
     // Write the data to the console for debugging:
     console.log(data);
@@ -30,17 +30,13 @@ var visualize = function(data, opponents) {
   };
 
   var fallCenters = {
-    1980: {x: width/5, y: height/4},
-    1981: {x: 2*width/5, y: height/3},
-    2018: {x: 3*width/5, y: 2*height/3},
-    2019: {x: 4*width/5, y: 3*height/4}
+    1: {x: width/5, y: height/4},
+    2: {x: 2*width/5, y: height/4},
   };
 
   var titles = {
-    1980: width/5-80,
-    1981: 2*width/5-40,
-    2018: 3*width/5,
-    2019: 4*width/5+80
+    1: width/5-80,
+    2: 2*width/5-40,
   };
   
   var forceStrength = 0.3;
@@ -80,7 +76,23 @@ var visualize = function(data, opponents) {
 
   svg.call(tip);
   // Visualization Code:
-  
+
+  var dateData = [...new Set(data.map(d => d.Fall))]
+  console.log(dateData);
+
+  var sliderTime = d3
+    .sliderBottom()
+    .min(d3.min(dateData))
+    .max(d3.max(dateData))
+    .step(1.0)
+    .width(1000)
+    .tickValues(dateData)
+    .tickFormat(d3.format("d"))
+    .on('onchange', val => {
+      d3.select('p#value-time').text((val));
+    }); 
+
+  svg.call(sliderTime);
   function createNodes(data) {
 
     var maxAmount = d3.max(data, (d) => 
