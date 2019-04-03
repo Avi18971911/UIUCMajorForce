@@ -13,6 +13,9 @@ $(function() {
 
 var visualize = function(data, opponents) {
   // Boilerplate:
+
+  let currentYear = "1980.0";
+
   var margin = { top: 50, right: 50, bottom: 50, left: 50 },
      width = 2000 - margin.left - margin.right,
      height = 3000 - margin.top - margin.bottom;
@@ -21,7 +24,7 @@ var visualize = function(data, opponents) {
   .attr('class', 'd3-tip')
   .html((d, i) => {
     return "College: " + d.group + " Major Name: " + d.name + "\nTotal Number of Students: " +
-       d.total + " Total Number of Students of this Gender: " + d.value;
+       d.year[currentYear].total + " Total Number of Students of this Gender: " + d.year[currentYear].value;
   });
  
   var center = {
@@ -29,14 +32,14 @@ var visualize = function(data, opponents) {
     y : height/2
   };
 
-  var fallCenters = {
-    1: {x: width/5, y: height/4},
-    2: {x: 2*width/5, y: height/4},
+  var genderCenters = {
+    0: 1.5*width/5,
+    1: 3.3*width/5
   };
 
   var titles = {
-    1: width/5-80,
-    2: 2*width/5-40,
+    1: 1.5*width/5-18,
+    2: 3.3*width/5+32,
   };
   
   var forceStrength = 0.3;
@@ -45,7 +48,10 @@ var visualize = function(data, opponents) {
   var nodes = [];
 
   function charge(d) {
-    return -Math.pow(d.radius, 2.0) * forceStrength;
+    if (d.year[currentYear])
+      return -Math.pow(d.year[currentYear].radius, 2.0) * forceStrength;
+    else
+      return 0;
   }
 
   var simulation = d3.forceSimulation()
@@ -78,6 +84,7 @@ var visualize = function(data, opponents) {
   // Visualization Code:
 
   var dateData = [...new Set(data.map(d => d.Fall))]
+  var colData = [...new Set(data.map(d => d.College))]
   console.log(dateData);
 
   var sliderTime = d3
@@ -88,12 +95,20 @@ var visualize = function(data, opponents) {
     .width(1000)
     .tickValues(dateData)
     .tickFormat(d3.format("d"))
+    .default(1980)
     .on('onchange', val => {
-      d3.select('p#value-time').text((val));
+      d3.select('p#value-time').text((val))
+      currentYear = val.toString()
+      currentYear += ".0"
+      simulationChange(val);
     }); 
+ 
+ 
+  svg.append("g")
+    .attr('transform', "translate(400, 1000)")
+    .call(sliderTime);
 
-  svg.call(sliderTime);
-  function createNodes(data) {
+  function createNodes(data, colData) {
 
     var maxAmount = d3.max(data, (d) => 
     { 
@@ -104,42 +119,76 @@ var visualize = function(data, opponents) {
       .exponent(0.5)
       .range([5, 40])
       .domain([0, maxAmount]);
+
+    var myNodesMale = {};
+    for (let i of colData)
+      if (!myNodesMale[i])
+        myNodesMale[i] = {};
+    
+    for (let d of data)
+    {
+      if (!myNodesMale[d.College][d.MajorName])
+      {
+        myNodesMale[d.College][d.MajorName] = {
+          name: d.MajorName,
+          group: d.College,
+          year: {},
+          gender: "male",
+          x: Math.random() * 900,
+          y: Math.random() * 800
+        };
+      }
+        myNodesMale[d.College][d.MajorName].year[d.Fall] = {
+          name: d.Fall,
+          value: d.Male,
+          radius: radiusScale(+d.Male),
+          total: d.Total
+        }; 
+    }
+
+   var myNodesFemale = {};
+    for (let i of colData)
+      if (!myNodesFemale[i])
+        myNodesFemale[i] = {};
+    
+    for (let d of data)
+    {
+      if (!myNodesFemale[d.College][d.MajorName])
+      {
+        myNodesFemale[d.College][d.MajorName] = {
+          name: d.MajorName,
+          group: d.College,
+          year: {},
+          gender: "female",
+          x: Math.random() * 900,
+          y: Math.random() * 800
+        };
+      }
+        myNodesFemale[d.College][d.MajorName].year[d.Fall] = {
+          name: d.Fall,
+          value: d.Female,
+          radius: radiusScale(+d.Female),
+          total: d.Total
+        }; 
+    }
  
-    var myNodesMale = data.map(function (d) {
-      return {
-        radius: radiusScale(d.Male),
-        value: d.Male,
-        name: d.MajorName,
-        total: d.Total,
-        group: d.College,
-        year: d.Fall,
-        gender: "male",
-        x: Math.random() * 900,
-        y: Math.random() * 800
-      };
-    });
-
-    var myNodesFemale = data.map(function (d) {
-      return {
-        radius: radiusScale(d.Female),
-        value: d.Female,
-        name: d.MajorName,
-        total: d.Total,
-        group: d.College,
-        year: d.Fall,
-        gender: "female",
-        x: Math.random() * 900,
-        y: Math.random() * 800
-      };
-    });
-
     function compareNodes(a, b)
     {
       let first = b.group.localeCompare(a.group);
       return first;
     }
 
-    var myNodes = myNodesMale.concat(myNodesFemale);
+    var myNodes = [];
+    
+    for (let college in myNodesMale)
+    {
+      for (let major in myNodesMale[college])
+      {
+        myNodes.push(myNodesMale[college][major]);
+        myNodes.push(myNodesFemale[college][major]);
+      }
+    }
+    
     myNodes.sort((a, b) => {return compareNodes(a, b)});
     let j = 0;
     myNodes = myNodes.map((d, i, a) =>
@@ -152,7 +201,7 @@ var visualize = function(data, opponents) {
     return myNodes;
   }
   
-  nodes = createNodes(data);
+  nodes = createNodes(data, colData);
   console.log(nodes);
   
   bubbles = svg.selectAll('.bubble')
@@ -160,19 +209,36 @@ var visualize = function(data, opponents) {
     .enter()
     .append('circle')
     .classed('bubble', true)
-    .attr('r', 10)
+    .attr('r', 0)
     .attr('fill', (d) => { return fillColor(d.group); })
     .attr('stroke', (d) => { return d3.rgb(fillColor(d.group)).darker(); })
     .attr('stroke-width', 2)
     .on('mouseover', tip.show)
     .on('mouseout', tip.hide)
- 
-  bubbles.transition()
-    .duration(2000)
-    .attr('r', function (d) { return d.radius; });
+  
+  function simulationChange(val)
+  {
+
+    simulation.force('charge', d3.forceManyBody().strength(charge))
+    bubbles.transition()
+      .duration(2000)
+      .attr('r', function (d) {
+        let yeario = val;
+        yeario = yeario.toString();
+        yeario += ".0";
+        if (!d.year[yeario])
+          return 0;
+        else
+        {
+          return d.year[yeario].radius;
+        }
+        })
+    simulation.alpha(0.5).restart();
+    simulation.alphaDecay(0.005);
+  }
 
   simulation.nodes(nodes);
-
+  simulationChange(1980);
   splitBubbles();
   
   function splitBubbles() {
@@ -199,12 +265,12 @@ var visualize = function(data, opponents) {
   function nodeRadialPosy(d)
   {
     let radius = 15;
-    return center.y + radius*Math.sin(d.degree * Math.PI / 180);
+    return center.y - 700 + radius*Math.sin(d.degree * Math.PI / 180);
   }
 
   function nodeYearPos(d) {
     var genMod = (d.gender == "male")? 0:1;
-    return fallCenters[+d.year+genMod].x;
+    return genderCenters[genMod];
   }
 
   function showYearTitles()
@@ -215,14 +281,13 @@ var visualize = function(data, opponents) {
       .enter()
       .append('text')
       .attr('x', (d) => {return titles[d];})
-      .attr('y', height/2-240)
+      .attr('y', height/4-200)
       .attr('text-anchor', 'middle')
-      .text((d) => {
-        console.log(d);
-        if (d === "1980" || d === "2018")
-          return "Male Students, " + d.toString();
+      .text((d, i) => {
+        if (i == 0)
+          return "Male Students";
         else
-          return "Female Students, " + (Number(d)-1).toString();
+          return "Female Students";
       });
   }
 };
